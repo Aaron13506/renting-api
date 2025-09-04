@@ -1,0 +1,7 @@
+{
+  "property_cannot_empty": "{property} cannot be empty",
+  "entity_not_found": "{entity} not found",
+  "something_goes_wrong": "something goes wrong",
+  "already_exist": "already exist",
+  "you_cannot_do_this_action": "you cannot do this action"
+}

@@ -1,0 +1,23 @@
+<%- include('./partials/header'); %>
+<div style="background-color: #ffcccc; padding: 40px;">
+    <p style="font-size: 30px; color: #ff0000; font-weight: 600; text-align: center">
+        Overdue Rent Notification
+    </p>
+</div>
+<h2 style="padding:0 20px;font-family:Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-weight:500;font-size:20px;color:#4f545c;letter-spacing:0.27px;text-align:center;">
+    Hello <%= locals.name; %>!
+</h2>
+<p style="padding:0 20px;text-align:center;">
+    This is a reminder that you have an overdue rent for the property <%= locals.propertyName %> in the lease
+    <%= locals.lease %>
+    as of <%= locals.date %>.
+</p>
+<p style="text-align:center;">
+    <span style="font-weight: bold;font-size: 50px;">
+        Amount Due: <%= locals.amount %>
+    </span>
+</p>
+<p style="text-align:center;">
+    Do not reply to this email. This is an automated email.
+</p>
+<%- include('./partials/footer'); %>

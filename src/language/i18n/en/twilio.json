@@ -1,0 +1,17 @@
+{
+  "send_message_code": "{appName} code: {code}",
+  "send_welcome_message": "You have been registered in {appName}. Please follow the link and log in to your account {message}",
+  "send_raw_message": "{appName}: {message}",
+  "send_individual_message": "{appName}: from {property} {message}",
+  "send_individual_message_from_Admin": "{appName}: {message}",
+  "send_notification_message_start_report": "{appName}: New request from {id} priority {priority}, check it out at {message}",
+  "send_notification_message": "{appName}: your request {id}, has change, check it out at {message}",
+  "send_notification_cancel_message": "{appName}: your request {id}, has been cancelled: {reason}",
+  "send_overdue_message": "{appName}: your lease {code} in the property {name} owes {amount} as of {date}, please pay it as soon as possible",
+  "send_notification_report_pending_message": "{appName}: You have a maintenance request from 5 days ago! {id} Check it out. {message}",
+  "send_notification_report_overdue_message": "{appName}: Your maintenance request {id} is overdue! Please check it out. {message}",
+  "send_notification_new_lease_message": "{appName}: New contract was uploaded by the lease {leaseCode} on the property {property}. Please check it out. {message}",
+  "send_notification_document_lease_signed_message": "{appName}: The contract by the lease {leaseCode} on the property {property} was signed! Please check it out. {message}",
+  "send_notification_new_payment_receipt_message": "{appName}: New payment receipt was uploaded by the lease {leaseCode} on the property {property}. Bill {idBill}. Please check it out. {message}",
+  "send_notification_new_payment_status_message": "{appName}:  bill {idBill} payment receipt status has changed in the property {property} in the lease {leaseCode}. Please check it out. {message}"
+}

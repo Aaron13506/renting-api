@@ -1,0 +1,19 @@
+<%- include('./partials/header'); %>
+<div style="background-color: #ffcccc; padding: 40px;">
+    <p style="font-size: 30px; color: #ff0000; font-weight: 600; text-align: center">
+        Report Status Overdue Notication
+    </p>
+</div>
+<h2 style="padding:0 20px;font-family:Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-weight:500;font-size:20px;color:#4f545c;letter-spacing:0.27px;">
+    Hello <%= locals.name; %>!
+</h2>
+<p style="padding:0 20px;">
+    This is a reminder that your maintance requeest from property <%= locals.propertyName %> in the lease
+    <%= locals.leaseCode %>,
+    date <%= locals.date %>, is overdue, Please check it out.
+</p>
+<p style="text-align:center;">
+    Do not reply to this email. This is an automated email.
+</p>
+<%- include('./partials/footer'); %>
+
